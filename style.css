@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: black;
+}
+nav h3 {
+    font-size: 30px;
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+    justify-content: space-between;
+    padding: 0 30px;
+    font-size: bold;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+   
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.autotype{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+.text{
+    color: rgb(238, 82, 108);
+}
+#homeimage{
+    /* background-position: center;  */
+    width: 990px; 
+    height: 800px;
+
+    filter: blur(8px);
+
+}
+.About{
+    display: flex;
+    gap: 4rem;
+}
+.overallcards{
+    display: flex;
+    
+    
+}
+#myName{
+    padding: 3px;
+}
+#myNumber{
+    padding: 3px;
+}
+
+#names{
+    padding: 5px;
+    position: relative;
+}
+.buttonhome{
+    position: absolute;
+}
+    
+
+.foot1{
+    display: flex;
+    gap: 8rem;
+}
+.foot{
+    display: flex;
+}
+#iconsfooter a i{
+    color: rgb(238, 82, 108);
+
+} 
+nav{
+    box-shadow: 0 0 10px rgb(238, 82, 108);
+}  
